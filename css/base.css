@@ -3,7 +3,8 @@ body{
 }
 
 .grid{
-    display: flex;
-    max-width: 1200px;
+    /* display: flex; */
+    max-width: 1400px;
     width: 100%;
 }
+

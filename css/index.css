@@ -78,3 +78,125 @@ html{
 .header__options__item img{
     height: 22px;
 }
+
+
+
+
+
+
+
+/* container */
+
+.container__options__list{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style: none;
+    border: 2px solid;
+    border-color: rgb(220, 150, 229);
+    padding: 0 20px;
+    margin: 0;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.container__options__item{
+    padding: 22px 8px;
+}
+
+.container__options__item:first-child{
+    background-color: rgb(243, 192, 250);
+}
+
+
+.container__background{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    height: 400px;
+    /* background-image: url(../Image/photo-0-15750043735021453697543-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: right top; */
+    background-color: #c1c1c1;
+    position: relative;
+    font-family: Georgia;
+    margin-bottom: 40px;
+}
+
+.container__background img{
+    height: 100%;
+}
+
+.container__background__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 6%;
+}
+
+.container__background__title{
+    margin-bottom: 12px;
+
+}
+
+.container__background__text{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.container__background__slogan{
+    font-weight: 500;
+    font-size: 14px;
+}
+/* 
+.container__background::after{
+    display: block;
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+}
+ */
+
+
+ .container__line{
+    height: 2px;
+    width: 100%;
+    background-color: #888;
+ }
+
+
+
+
+
+
+
+ /* .container__bestselle */
+ .container__bestseller{
+    display: flex;
+    justify-content: center;
+ }
+ .container__bestseller__head{
+    display: flex;
+    justify-content: space-between;
+ }
+
+
+ .container__bestseller__head__left{
+    display: flex;
+    
+ }
+
+ .container__bestseller__head__left__title{
+    margin: 0;
+ }
+
+ .container__bestseller__right__list{
+    display: flex;
+ }
+
+ .container__bestseller__head__right__item:not(:last-child){
+    margin-right: 20px;
+
+ }
