@@ -1,0 +1,85 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "code": "DCN0612",
+            "name": "Mặt Dây Chuyền Chữ H Đính Đá Đẹp DCN0612",
+            "pricePay": "249,000",
+            "priceLoss": "151,000",
+            "priceNomal": "400,000"
+        },
+        {
+            "id": 2,
+            "code": "DCN0460",
+            "name": "Dây chuyền bạc nữ khắc tên hình trái tim DCN0460",
+            "pricePay": "249,000",
+            "priceLoss": "151,000",
+            "priceNomal": "400,000"
+        },
+        {
+            "id": 3,
+            "code": "DCN0665",
+            "name": "Dây chuyền bạc nữ cao cấp mặt vuông sang trọng DCN0665",
+            "pricePay": "249,000",
+            "priceLoss": "151,000",
+            "priceNomal": "400,000"
+        },
+        {
+            "id": 4,
+            "code": "DCN0678",
+            "name": "Dây chuyền bạc nữ đơn giản đính đá pha lê Aurona DCN0678",
+            "pricePay": "249,000",
+            "priceLoss": "151,000",
+            "priceNomal": "400,000"
+        },
+        {
+            "id": 5,
+            "code": "DCN0671",
+            "name": "Dây chuyền bạc nữ cao cấp mặt đá vuông DCN0671",
+            "pricePay": "249,000",
+            "priceLoss": "151,000",
+            "priceNomal": "400,000"
+        },
+        {
+            "id": 6,
+            "code": "DCN0620",
+            "name": "Dây chuyền bạc nữ khắc tên hình trái tim DCN0620",
+            "pricePay": "249,000",
+            "priceLoss": "151,000",
+            "priceNomal": "400,000"
+        },
+        {
+            "id": 7,
+            "code": "DCN0677",
+            "name": "Dây chuyền hình chiếc nơ đính đá trắng DCN0677",
+            "pricePay": "249,000",
+            "priceLoss": "151,000",
+            "priceNomal": "400,000"
+        },
+        {
+            "id": 8,
+            "code": "DCN0617",
+            "name": "Dây chuyền máy bay cho nữ bằng bạc DCN0617",
+            "pricePay": "249,000",
+            "priceLoss": "151,000",
+            "priceNomal": "400,000"
+        },
+        {
+            "id": 9,
+            "code": "DCN0640",
+            "name": "Dây chuyền bạc nữ mặt tròn đính đá DCN0640",
+            "pricePay": "249,000",
+            "priceLoss": "151,000",
+            "priceNomal": "400,000"
+        },
+        {
+            "id": 10,
+            "code": "DCN0662",
+            "name": "Dây chuyền bạc nữ mặt thỏ ngọc dễ thương DCN0662",
+            "pricePay": "249,000",
+            "priceLoss": "151,000",
+            "priceNomal": "400,000"
+        }
+        
+    ]
+}
