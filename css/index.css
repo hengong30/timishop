@@ -42,13 +42,18 @@ html{
 .header__logo{
  display: flex;
  align-items: center;
- 
+    
  align-self: flex-end;
 }
 
 .header__logo img{
     height: 42px;
     padding-right: 4px;
+}
+
+.header__logo__text{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* header__options */
@@ -93,7 +98,7 @@ html{
     padding: 0;
     list-style: none;
     border: 2px solid;
-    border-color: rgb(220, 150, 229);
+    border-color: #ffc0ec;
     padding: 0 20px;
     margin: 0;
     font-weight: 600;
@@ -106,7 +111,7 @@ html{
 }
 
 .container__options__item:first-child{
-    background-color: rgb(243, 192, 250);
+    background-color: #ffc0ec;
 }
 
 
@@ -118,7 +123,7 @@ html{
     /* background-image: url(../Image/photo-0-15750043735021453697543-removebg-preview.png);
     background-repeat: no-repeat;
     background-position: right top; */
-    background-color: #c1c1c1;
+    background-color: #f3f3f3;
     position: relative;
     font-family: Georgia;
     margin-bottom: 40px;
@@ -206,7 +211,7 @@ html{
  }
 
  .container__bestseller__head__right__item__text--active{
-    background-color: #e381f0;
+    background-color: #ac87c5;
  }
 
  .container__bestseller__head__right__item:not(:last-child){
@@ -214,6 +219,7 @@ html{
 
  }
 
+<<<<<<< HEAD
  .footer__bot{
     display: flex;
     justify-content: space-around;
@@ -230,4 +236,51 @@ html{
 
  .footer__bot__right{
     list-style: none;
+=======
+
+
+
+.container__bestseller__product{
+    margin-bottom: 400px;
+}
+.container__bestseller__product__list{
+    height: 100%;
+}
+.container__bestseller__product__list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+
+}
+
+
+ .container__bestseller__product__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../Image/necklace/DCN0620.jpg);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    background-color: aqua;
+    border-radius: 8px;
+    height: 250px;
+    
+ }
+
+ .container__bestseller__product__item span{
+    padding: 8px;
+    color: #5d5165;
+    font-size: 16px;
+    font-weight: 600;
+ }
+
+ .container__bestseller__product__item:not(:first-child){
+    margin-left: 8px;
+ }
+ .container__bestseller__product__item:not(:last-child){
+    margin-right: 8px;
+>>>>>>> 41b149e8832c3422c4a0c2040f971378ff568b54
  }
