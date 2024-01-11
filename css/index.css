@@ -213,3 +213,21 @@ html{
     margin-right: 20px;
 
  }
+
+ .footer__bot{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f1f1f1;
+ }
+
+ .footer__bot__left{
+    list-style: none;
+ }
+
+ .footer__bot__between{
+    list-style: none;
+ }
+
+ .footer__bot__right{
+    list-style: none;
+ }
