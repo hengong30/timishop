@@ -87,6 +87,9 @@ html{
 
 /* container */
 
+.container{
+}
+
 .container__options__list{
     display: flex;
     justify-content: space-around;
@@ -118,7 +121,7 @@ html{
     /* background-image: url(../Image/photo-0-15750043735021453697543-removebg-preview.png);
     background-repeat: no-repeat;
     background-position: right top; */
-    background-color: #c1c1c1;
+    background-color: #c1c1c1b5;
     position: relative;
     font-family: Georgia;
     margin-bottom: 40px;
@@ -164,8 +167,45 @@ html{
     height: 2px;
     width: 100%;
     background-color: #888;
+    margin-bottom: 80px;
  }
 
+ .container__line__short{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 12px;
+ }
+
+ .container__line__short__center{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 2px;
+    /* background-color: #000; */
+    align-items: center;
+ }
+ .container__line__short__center::before{
+    display: block;
+    content: "";
+    height: 3px;
+    width: 15%;
+    background-color: #503bcb;
+    border-radius: 1px;
+ }
+ .container__line__short__center::after{
+    display: block;
+    content: "";
+    height: 2px;
+    width: 85%;
+    background-color: #000;
+    border-radius: 1px;
+ } 
+
+
+ .container__line__short__center--revert{
+    flex-direction: row-reverse;
+ }
 
 
  /* .container__bestselle */
@@ -231,3 +271,49 @@ html{
  .footer__bot__right{
     list-style: none;
  }
+
+
+
+.container__bestseller__product{
+
+}
+
+
+.container__bestseller__product__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+}
+
+
+.container__bestseller__product__item{
+    background-color: #e381f0;
+    background-image: url(../Image/necklace/DCN0460.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 222px;
+    width: 168px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.container__bestseller__product__item:not(:first-child){
+}
+.container__bestseller__product__item:not(:last-child){
+}
+
+
+.container__bestseller__product__item__price{
+display: none;
+}
+
+
+.container__bestseller__product__item__text{
+display: none;
+}
+
