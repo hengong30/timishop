@@ -253,11 +253,20 @@ html{
     margin-right: 20px;
 
  }
+ /* footer */
+.footer{
+    background-color: #f1f1f1;
+    padding: 20px;
+
+}
+
+.footer__top__item{
+    padding-top: 6px;
+}
 
  .footer__bot{
     display: flex;
     justify-content: space-around;
-    background-color: #f1f1f1;
  }
 
  .footer__bot__left{
