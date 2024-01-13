@@ -8,12 +8,15 @@ html{
     align-items: center;
     justify-content: center;
     height: 92px;
+    margin-bottom: 100px;
+    padding: 0 20px;
 }
 
 .header__block{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    
 }
 
 /* header__search */
@@ -21,12 +24,13 @@ html{
  display: flex;
  align-items: center;
  align-self: center;
- height: 32px;
+ height: 40px;
+ width: 274px;
  border: 1px solid #000;
 }
 
 .header__search__icon{
-    font-size: 18px;
+    font-size: 20px;
     padding: 0 8px;
 }
 
@@ -79,6 +83,11 @@ html{
     height: 22px;
 }
 
+.header__logo__text{
+    font-size: 36px;
+    font-family: 'Segoe UI Black';
+}
+
 
 
 
@@ -96,7 +105,7 @@ html{
     padding: 0;
     list-style: none;
     border: 2px solid;
-    border-color: rgb(220, 150, 229);
+    border-color: #c8c2ee;
     padding: 0 20px;
     margin: 0;
     font-weight: 600;
@@ -108,9 +117,6 @@ html{
     padding: 22px 8px;
 }
 
-.container__options__item:first-child{
-    background-color: rgb(243, 192, 250);
-}
 
 
 .container__background{
@@ -121,7 +127,7 @@ html{
     /* background-image: url(../Image/photo-0-15750043735021453697543-removebg-preview.png);
     background-repeat: no-repeat;
     background-position: right top; */
-    background-color: #c1c1c1b5;
+    background-color: #f0eefc;
     position: relative;
     font-family: Georgia;
     margin-bottom: 40px;
@@ -246,7 +252,7 @@ html{
  }
 
  .container__bestseller__head__right__item__text--active{
-    background-color: #e381f0;
+    background-color: #ac87c5;
  }
 
  .container__bestseller__head__right__item:not(:last-child){
