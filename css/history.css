@@ -1,0 +1,79 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container__left{
+    width: 500px;
+}
+.container__left__text{
+    list-style: none;
+}
+
+.container__left__text__link{
+   width: 400px;
+   height: 50px;
+   background-color: rgba(255, 255, 255, 0.588);
+   box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+   display: flex;
+   align-items: center;
+   border: 2px solid rgba(49, 48, 48, 0.144); 
+   padding: 10px; 
+   margin-bottom: 20px;
+   font-size: 20px;
+}
+
+.container__left__title {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 70px;
+}
+
+.container__left__title img {
+    border-radius: 50%; 
+    width: 80%;
+    height: 80%;
+    border: 2px solid #d3d3d3;
+}
+
+.container__left__title .username {
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    right: 0;
+    color: #000; 
+    font-size: 20px; 
+    text-align: center;  
+}
+
+.container__right{
+    width: 1000px;
+}
+
+.container__right__title{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    font-family: 'Segoe UI Black';
+}
+
+table {
+    width: 80%;
+}
+
+table, th, td{
+    border-bottom: 1px solid #bfbfbf;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 20px 10px;
+    font-size: 20px;
+}
+
+th {
+    color: #8073ce;
+}
