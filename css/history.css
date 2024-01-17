@@ -1,10 +1,10 @@
-.container__box{
+
 .header__logo__text{
     font-size: 36px;
     font-family: 'Segoe UI Black';
 }
 
-.container{
+.container__box{
     display: flex;
     justify-content: space-around;
 }
