@@ -9,8 +9,13 @@
 }
 
 .container__options {
-    flex: 2;
-    background-color: aqua;
+    flex: 1.5;
+    /* background-color: aqua; */
+    /* padding-left: 100px; */
+}
+
+.container__options__left{
+    margin-left: 22px;
 }
 
 .container__options__left h5 {
