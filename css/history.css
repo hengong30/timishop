@@ -1,4 +1,4 @@
-.container{
+.container__box{
     display: flex;
     justify-content: space-around;
 }
@@ -22,7 +22,11 @@
    margin-bottom: 20px;
    font-size: 20px;
 }
+.container__left__text__link:hover{
+    cursor: pointer;
+   background-color: rgba(233, 233, 233, 0.476);
 
+}
 .container__left__title {
     display: flex;
     justify-content: center;
@@ -72,6 +76,7 @@ table, th, td{
 td, th {
     padding: 20px 10px;
     font-size: 20px;
+    text-align: center;
 }
 
 th {
