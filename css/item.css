@@ -37,7 +37,7 @@
 .container__item {
     display: flex;
     flex: 8;
-    background-color: beige;
+    background-color: #ffff;
 }
 
 .container__item__images{
@@ -104,8 +104,8 @@
 }
 
 .container__item__information__buy__count{
-    padding: 10px 16px ;
-    background-color: aliceblue;
+    padding: 4px 16px ;
+    background-color: #ffff;
     border: 1px solid #333;
     border-radius: 2px;
 }
