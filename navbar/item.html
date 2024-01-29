@@ -137,10 +137,10 @@
                     <div class="container__item__images">
                         <img class="container__item__images__big" src="../Image/product/DCN/DC01.jpg" />
                         <div class="container__item__images__other">
-                            <img src="../Image/product/DCN/DC02.jpg" alt=""
+                            <!-- <img src="../Image/product/DCN/DC02.jpg" alt=""
                                 class="container__item__images__other__mini">
                             <img src="../Image/product/DCN/DC03.jpg" alt=""
-                                class="container__item__images__other__mini">
+                                class="container__item__images__other__mini"> -->
                         </div>
                     </div>
                     <div class="container__item__information">
@@ -158,9 +158,9 @@
                         <span class="container__item__information__price">500.000</span>
                         <div class="container__item__information__buy">
                             <div class="container__item__information__buy__count">
-                                <span class="miss">-</span>
-                                <span class="count">1</span>
-                                <span class="plus">+</span>
+                                <span class="miss" onClick="missAction()">-</span>
+                                <span class="count-of-item count">1</span>
+                                <span class="plus" onClick="plusAction()">+</span>
                             </div>
                             <div class="container__item__information__buy__number">150 sản phẩm</div>
                         </div>
@@ -311,6 +311,7 @@
             </div>
         </div>
     </div>
+    <script src="../js/item.js"></script>
 </body>
 
 </html>
